@@ -1,0 +1,26 @@
+/* a:visited{
+  color: purple;
+} */
+a{
+  color: red;
+}
+a:hover{
+  color: blue;
+}
+a:hover + .my_div{
+  /* display: block; */
+  background-color: orange;
+}
+a:active{
+  color: green;
+}
+.my_div{
+  /* display: none; */
+  background-color: yellow;
+}
+.my_div:active{
+  color: red;
+}
+.my_div:hover + a{
+  color: purple;
+}

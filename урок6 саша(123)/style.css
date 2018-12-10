@@ -1,0 +1,42 @@
+body{
+	background-color: black;
+	color: white;
+}
+h1{
+	margin: 0;
+}
+img{
+	width: 150%;
+}
+.container{
+	margin: 10%;
+	margin-top: 17;
+	display: flex;
+}
+.left_side, .right_side{
+	text-align: center;
+	width: 50%;
+}
+.task{
+	display: flex;
+	border: 2px solid white;
+}
+.left_task{
+	width: 20%;
+	background-color: blue;
+}
+.right_task{
+	width: 80%;
+}
+.weather{
+	display: flex;
+}
+.sun{
+	width: 20%;
+}
+.temp{
+	width: 80%;
+}
+.left_side h1, .weather h1{
+	font-size: 4em;
+}

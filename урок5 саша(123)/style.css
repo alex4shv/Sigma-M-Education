@@ -1,0 +1,27 @@
+body{
+	background-color: grey;
+}
+.Glav_div{
+	width: 50%;
+	background-color: white;
+}
+
+img{
+	width: 100%;
+}
+.big_div{/* first */
+	display: inline-block;
+	width: 40%;
+	padding: 2%;
+}	
+.small_div{/* second */
+	display: inline-block;
+	width: 30%;
+	padding: 1%;
+}
+button{
+	color: orange;
+	width: 80%;
+	height: 50px;
+	border-radius: 25px;
+}
